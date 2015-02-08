@@ -30,7 +30,7 @@ public class DetailActivity extends Activity {
 		
 		Bundle bundle = this.getIntent().getExtras();
         
-		Student std = (Student)bundle.getSerializable("student is ready");
+		Student std = (Student)bundle.getSerializable("student is ready 1");
 	
 		SetStudentInformation(std);
 		
