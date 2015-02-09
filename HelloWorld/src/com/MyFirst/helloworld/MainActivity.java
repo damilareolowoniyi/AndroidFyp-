@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 		{
 			case R.id.menu_settings:
 				{
-					Toast.makeText(this, "Clicked on setting menu item.", Toast.LENGTH_SHORT).show();
+					Toast.makeText(this, "Clicked on setting menu item again.", Toast.LENGTH_SHORT).show();
 					handled = true;
 					break;
 				}
